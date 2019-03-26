@@ -7,4 +7,6 @@ class Student < User
   
   def learn(info)
     @knowledge << self.info
+  end
+  
 end
