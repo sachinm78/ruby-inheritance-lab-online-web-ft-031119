@@ -9,4 +9,8 @@ class Student < User
     @knowledge << self.info
   end
   
+  def knowledge
+    @knowledge
+  end
+  
 end
